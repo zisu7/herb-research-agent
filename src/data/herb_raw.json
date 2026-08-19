@@ -1,0 +1,482 @@
+[
+  {
+    "name": "人参",
+    "category": "补虚药",
+    "meridian": "脾肺心经",
+    "effect": "大补元气，复脉固脱",
+    "dosage": "3-9g",
+    "is_food_medicine": false,
+    "components": ["人参皂苷Rg1", "人参皂苷Rb1", "人参多糖", "挥发油", "氨基酸"],
+    "contraindication": "不宜与藜芦、五灵脂同用；体质壮实者慎用；实证、热证忌服"
+  },
+  {
+    "name": "黄芪",
+    "category": "补虚药",
+    "meridian": "脾肺经",
+    "effect": "补气升阳，固表止汗",
+    "dosage": "9-30g",
+    "is_food_medicine": false,
+    "components": ["黄芪多糖", "黄芪皂苷", "黄酮类", "氨基酸", "微量元素"],
+    "contraindication": "表实邪盛、气滞湿阻、食积内停者不宜；不宜与藜芦同用"
+  },
+  {
+    "name": "当归",
+    "category": "补虚药",
+    "meridian": "肝心脾经",
+    "effect": "补血活血，调经止痛",
+    "dosage": "6-12g",
+    "is_food_medicine": false,
+    "components": ["阿魏酸", "当归多糖", "挥发油", "黄酮类", "氨基酸"],
+    "contraindication": "湿盛中满、大便泄泻者忌服；不宜与藜芦同用"
+  },
+  {
+    "name": "白术",
+    "category": "补虚药",
+    "meridian": "脾胃经",
+    "effect": "健脾益气，燥湿利水",
+    "dosage": "6-12g",
+    "is_food_medicine": false,
+    "components": ["挥发油", "白术多糖", "白术内酯", "氨基酸", "微量元素"],
+    "contraindication": "阴虚内热、津液亏耗者慎用；气滞胀闷者忌用"
+  },
+  {
+    "name": "甘草",
+    "category": "补虚药",
+    "meridian": "心肺脾胃经",
+    "effect": "益气补中，清热解毒",
+    "dosage": "2-10g",
+    "is_food_medicine": false,
+    "components": ["甘草酸", "甘草苷", "挥发油", "氨基酸", "三萜类"],
+    "contraindication": "不宜与海藻、京大戟、甘遂、芫花同用；湿盛而胸腹胀满、呕吐者忌用"
+  },
+  {
+    "name": "党参",
+    "category": "补虚药",
+    "meridian": "脾肺经",
+    "effect": "补中益气，健脾益肺",
+    "dosage": "9-30g",
+    "is_food_medicine": false,
+    "components": ["党参多糖", "党参皂苷", "挥发油", "氨基酸", "微量元素"],
+    "contraindication": "不宜与藜芦同用；实证、热证者慎用"
+  },
+  {
+    "name": "西洋参",
+    "category": "补虚药",
+    "meridian": "心肺肾经",
+    "effect": "补气养阴，清热生津",
+    "dosage": "3-6g",
+    "is_food_medicine": false,
+    "components": ["西洋参皂苷", "多糖", "挥发油", "氨基酸", "微量元素"],
+    "contraindication": "不宜与藜芦同用；中阳衰微、胃有寒湿者忌服"
+  },
+  {
+    "name": "麦冬",
+    "category": "补虚药",
+    "meridian": "心肺胃经",
+    "effect": "养阴生津，润肺清心",
+    "dosage": "6-12g",
+    "is_food_medicine": false,
+    "components": ["麦冬多糖", "麦冬皂苷", "挥发油", "氨基酸", "微量元素"],
+    "contraindication": "脾胃虚寒、湿浊中阻者忌服"
+  },
+  {
+    "name": "枸杞子",
+    "category": "补虚药",
+    "meridian": "肝肾经",
+    "effect": "滋补肝肾，益精明目",
+    "dosage": "6-12g",
+    "is_food_medicine": true,
+    "components": ["枸杞多糖", "胡萝卜素", "甜菜碱", "黄酮类", "微量元素"],
+    "contraindication": "外邪实热、脾虚有湿及泄泻者忌服"
+  },
+  {
+    "name": "熟地黄",
+    "category": "补虚药",
+    "meridian": "肝肾经",
+    "effect": "补血养阴，填精益髓",
+    "dosage": "9-15g",
+    "is_food_medicine": false,
+    "components": ["地黄多糖", "梓醇", "甾体类", "氨基酸", "微量元素"],
+    "contraindication": "脾胃虚弱、气滞痰多、腹满便溏者忌服"
+  },
+  {
+    "name": "肉桂",
+    "category": "温里药",
+    "meridian": "肾脾心肝经",
+    "effect": "补火助阳，散寒止痛",
+    "dosage": "1-5g",
+    "is_food_medicine": true,
+    "components": ["桂皮醛", "挥发油", "肉桂多糖", "黄酮类", "微量元素"],
+    "contraindication": "阴虚火旺者忌服；孕妇慎用；不宜与赤石脂同用"
+  },
+  {
+    "name": "干姜",
+    "category": "温里药",
+    "meridian": "脾胃肾心肺经",
+    "effect": "温中散寒，回阳通脉",
+    "dosage": "3-10g",
+    "is_food_medicine": true,
+    "components": ["姜辣素", "挥发油", "姜烯", "氨基酸", "微量元素"],
+    "contraindication": "阴虚内热、血热妄行者禁服；孕妇慎服"
+  },
+  {
+    "name": "高良姜",
+    "category": "温里药",
+    "meridian": "脾胃经",
+    "effect": "温中止痛，温中止呕",
+    "dosage": "3-6g",
+    "is_food_medicine": false,
+    "components": ["高良姜素", "挥发油", "姜辣素", "黄酮类", "微量元素"],
+    "contraindication": "阴虚火旺者忌服；孕妇慎用"
+  },
+  {
+    "name": "吴茱萸",
+    "category": "温里药",
+    "meridian": "肝脾胃肾经",
+    "effect": "散寒止痛，降逆止呕",
+    "dosage": "2-5g",
+    "is_food_medicine": false,
+    "components": ["吴茱萸碱", "挥发油", "吴茱萸次碱", "黄酮类", "微量元素"],
+    "contraindication": "阴虚火旺者忌服；孕妇慎用；过量可致中毒"
+  },
+  {
+    "name": "丁香",
+    "category": "温里药",
+    "meridian": "脾胃肺肾经",
+    "effect": "温中降逆，散寒止痛",
+    "dosage": "1-3g",
+    "is_food_medicine": true,
+    "components": ["丁香油酚", "挥发油", "丁香酮", "黄酮类", "微量元素"],
+    "contraindication": "热病及阴虚内热者忌服；不宜与郁金同用"
+  },
+  {
+    "name": "陈皮",
+    "category": "理气药",
+    "meridian": "脾肺经",
+    "effect": "理气健脾，燥湿化痰",
+    "dosage": "3-10g",
+    "is_food_medicine": true,
+    "components": ["挥发油", "橙皮苷", "陈皮素", "黄酮类", "微量元素"],
+    "contraindication": "气虚体燥、阴虚燥咳、吐血及内有实热者慎服"
+  },
+  {
+    "name": "枳实",
+    "category": "理气药",
+    "meridian": "脾胃大肠经",
+    "effect": "破气消积，化痰散痞",
+    "dosage": "3-10g",
+    "is_food_medicine": false,
+    "components": ["挥发油", "黄酮类", "生物碱", "多糖", "微量元素"],
+    "contraindication": "孕妇慎用；脾胃虚弱者不宜"
+  },
+  {
+    "name": "木香",
+    "category": "理气药",
+    "meridian": "脾胃大肠胆三焦经",
+    "effect": "行气止痛，健脾消食",
+    "dosage": "3-10g",
+    "is_food_medicine": false,
+    "components": ["挥发油", "木香碱", "黄酮类", "多糖", "微量元素"],
+    "contraindication": "阴虚津液不足者慎服"
+  },
+  {
+    "name": "香附",
+    "category": "理气药",
+    "meridian": "肝脾三焦经",
+    "effect": "疏肝解郁，理气宽中",
+    "dosage": "6-10g",
+    "is_food_medicine": false,
+    "components": ["挥发油", "香附烯", "黄酮类", "多糖", "微量元素"],
+    "contraindication": "气虚无滞、阴虚内热者慎用"
+  },
+  {
+    "name": "砂仁",
+    "category": "理气药",
+    "meridian": "脾胃肾经",
+    "effect": "化湿开胃，温脾止泻",
+    "dosage": "3-6g",
+    "is_food_medicine": true,
+    "components": ["挥发油", "砂仁苷", "黄酮类", "多糖", "微量元素"],
+    "contraindication": "阴虚有热者忌服；孕妇慎用"
+  },
+  {
+    "name": "黄连",
+    "category": "清热药",
+    "meridian": "心肝胃大肠经",
+    "effect": "清热燥湿，泻火解毒",
+    "dosage": "2-5g",
+    "is_food_medicine": false,
+    "components": ["黄连素", "黄连碱", "小檗碱", "挥发油", "微量元素"],
+    "contraindication": "脾胃虚寒者忌服；阴虚津伤者慎用"
+  },
+  {
+    "name": "黄芩",
+    "category": "清热药",
+    "meridian": "肺胆脾大肠小肠经",
+    "effect": "清热燥湿，泻火解毒",
+    "dosage": "3-10g",
+    "is_food_medicine": false,
+    "components": ["黄芩苷", "黄芩素", "汉黄芩素", "挥发油", "微量元素"],
+    "contraindication": "脾胃虚寒、少食便溏者不宜服"
+  },
+  {
+    "name": "金银花",
+    "category": "清热药",
+    "meridian": "肺心胃经",
+    "effect": "清热解毒，疏散风热",
+    "dosage": "6-15g",
+    "is_food_medicine": true,
+    "components": ["绿原酸", "黄酮类", "挥发油", "多糖", "微量元素"],
+    "contraindication": "脾胃虚寒、气虚疮疡脓清者不宜"
+  },
+  {
+    "name": "连翘",
+    "category": "清热药",
+    "meridian": "肺心小肠经",
+    "effect": "清热解毒，消肿散结",
+    "dosage": "6-15g",
+    "is_food_medicine": false,
+    "components": ["连翘苷", "挥发油", "黄酮类", "树脂", "微量元素"],
+    "contraindication": "脾胃虚弱、气虚者慎用"
+  },
+  {
+    "name": "板蓝根",
+    "category": "清热药",
+    "meridian": "心胃经",
+    "effect": "清热解毒，凉血利咽",
+    "dosage": "9-15g",
+    "is_food_medicine": false,
+    "components": ["靛蓝", "靛玉红", "多糖", "氨基酸", "微量元素"],
+    "contraindication": "脾胃虚寒、体虚无实火热毒者忌服"
+  },
+  {
+    "name": "蒲公英",
+    "category": "清热药",
+    "meridian": "肝胃经",
+    "effect": "清热解毒，消肿散结",
+    "dosage": "10-15g",
+    "is_food_medicine": true,
+    "components": ["蒲公英甾醇", "黄酮类", "多糖", "挥发油", "微量元素"],
+    "contraindication": "阳虚外寒、脾胃虚弱者忌服"
+  },
+  {
+    "name": "牡丹皮",
+    "category": "清热药",
+    "meridian": "心肝肾经",
+    "effect": "清热凉血，活血化瘀",
+    "dosage": "6-12g",
+    "is_food_medicine": false,
+    "components": ["丹皮酚", "牡丹苷", "挥发油", "黄酮类", "微量元素"],
+    "contraindication": "血虚有寒、孕妇及月经过多者慎用"
+  },
+  {
+    "name": "玄参",
+    "category": "清热药",
+    "meridian": "肺胃肾经",
+    "effect": "清热凉血，滋阴降火",
+    "dosage": "9-15g",
+    "is_food_medicine": false,
+    "components": ["玄参素", "多糖", "挥发油", "氨基酸", "微量元素"],
+    "contraindication": "脾胃虚寒、食少便溏者忌服；不宜与藜芦同用"
+  },
+  {
+    "name": "赤芍",
+    "category": "清热药",
+    "meridian": "肝经",
+    "effect": "清热凉血，散瘀止痛",
+    "dosage": "6-12g",
+    "is_food_medicine": false,
+    "components": ["芍药苷", "赤芍素", "挥发油", "黄酮类", "微量元素"],
+    "contraindication": "血虚无瘀之证及痈疽已溃者慎用；不宜与藜芦同用"
+  },
+  {
+    "name": "石膏",
+    "category": "清热药",
+    "meridian": "肺胃经",
+    "effect": "清热泻火，除烦止渴",
+    "dosage": "15-60g",
+    "is_food_medicine": false,
+    "components": ["含水硫酸钙", "微量元素", "黏土矿物", "有机物"],
+    "contraindication": "脾胃虚寒、阴虚内热者忌服"
+  },
+  {
+    "name": "山药",
+    "category": "补虚药",
+    "meridian": "脾肺肾经",
+    "effect": "益气养阴，补脾肺肾",
+    "dosage": "15-30g",
+    "is_food_medicine": true,
+    "components": ["山药多糖", "薯蓣皂苷", "氨基酸", "黏液蛋白", "微量元素"],
+    "contraindication": "湿盛中满或有实邪、积滞者禁服"
+  },
+  {
+    "name": "薏米",
+    "category": "利水渗湿药",
+    "meridian": "脾胃肺经",
+    "effect": "利水渗湿，健脾止泻",
+    "dosage": "9-30g",
+    "is_food_medicine": true,
+    "components": ["薏苡仁酯", "薏苡仁素", "多糖", "氨基酸", "微量元素"],
+    "contraindication": "脾虚无湿、大便燥结者及孕妇慎服"
+  },
+  {
+    "name": "红枣",
+    "category": "补虚药",
+    "meridian": "脾胃经",
+    "effect": "补中益气，养血安神",
+    "dosage": "6-15g",
+    "is_food_medicine": true,
+    "components": ["大枣多糖", "皂苷", "黄酮类", "氨基酸", "微量元素"],
+    "contraindication": "湿盛中满、痰热咳嗽者忌服"
+  },
+  {
+    "name": "桂圆",
+    "category": "补虚药",
+    "meridian": "心脾经",
+    "effect": "补益心脾，养血安神",
+    "dosage": "9-15g",
+    "is_food_medicine": true,
+    "components": ["桂圆多糖", "氨基酸", "黄酮类", "维生素", "微量元素"],
+    "contraindication": "内有痰火或阴虚火旺者忌服；湿滞停饮者忌服"
+  },
+  {
+    "name": "莲子",
+    "category": "收涩药",
+    "meridian": "脾胃肾经",
+    "effect": "补脾止泻，益肾涩精",
+    "dosage": "6-15g",
+    "is_food_medicine": true,
+    "components": ["莲子多糖", "生物碱", "黄酮类", "氨基酸", "微量元素"],
+    "contraindication": "中满痞胀、大便燥结者禁服"
+  },
+  {
+    "name": "百合",
+    "category": "补虚药",
+    "meridian": "心肺经",
+    "effect": "养阴润肺，清心安神",
+    "dosage": "6-12g",
+    "is_food_medicine": true,
+    "components": ["百合多糖", "百合皂苷", "秋水仙碱", "氨基酸", "微量元素"],
+    "contraindication": "风寒咳嗽及中寒便溏者忌服"
+  },
+  {
+    "name": "生姜",
+    "category": "温里药",
+    "meridian": "脾胃肺经",
+    "effect": "温中散寒，解表发汗",
+    "dosage": "3-10g",
+    "is_food_medicine": true,
+    "components": ["姜辣素", "挥发油", "姜烯", "氨基酸", "微量元素"],
+    "contraindication": "阴虚内热及实热证禁服"
+  },
+  {
+    "name": "大蒜",
+    "category": "温里药",
+    "meridian": "脾胃肺经",
+    "effect": "解毒杀虫，温中消食",
+    "dosage": "3-5瓣",
+    "is_food_medicine": true,
+    "components": ["大蒜素", "挥发油", "氨基酸", "微量元素", "维生素"],
+    "contraindication": "阴虚火旺者忌服；胃溃疡及十二指肠溃疡者慎服"
+  },
+  {
+    "name": "花椒",
+    "category": "温里药",
+    "meridian": "脾胃肾经",
+    "effect": "温中止痛，杀虫止痒",
+    "dosage": "3-6g",
+    "is_food_medicine": true,
+    "components": ["花椒挥发油", "花椒碱", "酰胺类", "黄酮类", "微量元素"],
+    "contraindication": "阴虚火旺者忌服；孕妇慎服"
+  },
+  {
+    "name": "山楂",
+    "category": "消食药",
+    "meridian": "脾胃肝经",
+    "effect": "消食化积，活血化瘀",
+    "dosage": "10-15g",
+    "is_food_medicine": true,
+    "components": ["有机酸", "黄酮类", "山楂多糖", "氨基酸", "微量元素"],
+    "contraindication": "脾胃虚弱而无积滞者慎用；孕妇慎用"
+  },
+  {
+    "name": "荷叶",
+    "category": "清热药",
+    "meridian": "脾胃肝经",
+    "effect": "清热解暑，升发清阳",
+    "dosage": "3-6g",
+    "is_food_medicine": true,
+    "components": ["荷叶碱", "黄酮类", "挥发油", "多糖", "微量元素"],
+    "contraindication": "体虚气弱者慎用"
+  },
+  {
+    "name": "菊花",
+    "category": "解表药",
+    "meridian": "肺肝经",
+    "effect": "疏散风热，清肝明目",
+    "dosage": "5-10g",
+    "is_food_medicine": true,
+    "components": ["黄酮类", "挥发油", "菊苷", "氨基酸", "微量元素"],
+    "contraindication": "气虚胃寒、食少泄泻者慎用"
+  },
+  {
+    "name": "蜂蜜",
+    "category": "补虚药",
+    "meridian": "肺脾大肠经",
+    "effect": "补中润燥，止痛解毒",
+    "dosage": "10-20g",
+    "is_food_medicine": true,
+    "components": ["葡萄糖", "果糖", "维生素", "矿物质", "酶类"],
+    "contraindication": "湿阻中满、湿热痰滞、便溏或泄泻者慎服"
+  },
+  {
+    "name": "阿胶",
+    "category": "补虚药",
+    "meridian": "肺肝肾经",
+    "effect": "补血滋阴，润燥止血",
+    "dosage": "3-9g",
+    "is_food_medicine": true,
+    "components": ["驴皮胶", "氨基酸", "多糖", "微量元素", "维生素"],
+    "contraindication": "脾胃虚弱、腹胀便溏者慎服"
+  },
+  {
+    "name": "茯苓",
+    "category": "利水渗湿药",
+    "meridian": "心脾肾经",
+    "effect": "利水渗湿，健脾宁心",
+    "dosage": "10-15g",
+    "is_food_medicine": true,
+    "components": ["茯苓多糖", "茯苓酸", "挥发油", "氨基酸", "微量元素"],
+    "contraindication": "虚寒精滑或气虚下陷者忌服"
+  },
+  {
+    "name": "芡实",
+    "category": "收涩药",
+    "meridian": "脾肾经",
+    "effect": "益肾固精，补脾止泻",
+    "dosage": "9-15g",
+    "is_food_medicine": true,
+    "components": ["芡实多糖", "氨基酸", "黄酮类", "微量元素", "维生素"],
+    "contraindication": "大小便不利者禁服；食滞不化者慎服"
+  },
+  {
+    "name": "葛根",
+    "category": "解表药",
+    "meridian": "脾胃经",
+    "effect": "解肌退热，生津止渴",
+    "dosage": "10-15g",
+    "is_food_medicine": true,
+    "components": ["葛根素", "大豆苷元", "多糖", "氨基酸", "微量元素"],
+    "contraindication": "胃寒呕吐者慎用"
+  },
+  {
+    "name": "白芷",
+    "category": "解表药",
+    "meridian": "胃大肠肺经",
+    "effect": "解表散寒，祛风止痛，宣通鼻窍",
+    "dosage": "3-10g",
+    "is_food_medicine": false,
+    "components": ["白芷素", "白芷内酯", "挥发油", "树脂", "生物碱"],
+    "contraindication": "阴虚血热者忌服；不宜与藜芦同用"
+  }
+]
