@@ -29,7 +29,6 @@
    ```
    DEEPSEEK_API_KEY=sk-xxxxxxxx
    ```
-   **请勿将密钥上传至仓库。**
 
 ### 启动
 ```
